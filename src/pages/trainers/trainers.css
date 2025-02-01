@@ -1,0 +1,86 @@
+.trainers {
+    background: rgb(12, 12, 41);
+    background: linear-gradient(
+      90deg,
+      rgba(12, 12, 41, 1) 0%,
+      rgba(13, 13, 42, 1) 35%,
+      rgb(36, 0, 63) 100%
+    );
+    margin: 0;
+    padding: 5rem 0;
+}
+.trainers_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.card.trainer {
+    padding: 1rem;
+   
+}
+
+.trainer_img {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.trainer h3 {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #cc90fd;
+}
+
+.trainer p {
+    margin-top: 0.3rem;
+    font-size: 0.95rem;
+}
+
+.trainer_socials {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.trainer_socials a {
+    font-size: 0.9rem;
+    background: #ffffff1f;
+    padding: 0.4rem 0.6rem 0.1rem;
+    border-radius: 0.7rem;
+    transition: var(--transition);
+   
+}
+
+.trainer:hover a {
+    background: #be70fd;
+    color: #0c0c29;
+}
+
+/* MEDIA QUIRIES (medium screens) */
+@media screen and (max-width: 1200px) {
+    .trainers_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .trainers_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+}
+
+/* MEDIA QUIRIES (small screens) */
+@media screen and (max-width: 600px) {
+    .trainers_container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .card.trainer {
+        width: 90%;
+        margin-inline: auto;
+    }
+}

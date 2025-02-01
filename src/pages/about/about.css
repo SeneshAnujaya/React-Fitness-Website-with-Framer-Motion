@@ -1,0 +1,156 @@
+.about_story {
+  margin: 0;
+  padding: 5rem 0;
+
+  background: rgb(30, 0, 53);
+  background: linear-gradient(
+    90deg,
+    rgb(35, 0, 61) 0%,
+    rgba(13, 13, 42, 1) 50%,
+    rgb(17, 0, 48) 100%
+  );
+}
+.about_vision {
+  margin: 0;
+  padding: 5rem 0;
+
+  background: rgb(30, 0, 53);
+  background: linear-gradient(
+    90deg,
+    rgb(36, 0, 63) 0%,
+    rgba(13, 13, 42, 1) 50%,
+    rgb(17, 0, 48) 100%
+  );
+}
+.about_mission {
+    margin: 0;
+  padding: 5rem 0;
+
+  background: rgb(30, 0, 53);
+  background: linear-gradient(
+    90deg,
+    rgb(31, 0, 54) 0%,
+    rgba(13, 13, 42, 1) 50%,
+    rgb(17, 0, 48) 100%
+  );
+}
+.about_section-image {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 12rem;
+  overflow: hidden;
+  transition: var(--transition);
+
+  height: 550px;
+}
+.about_section-image img {
+  width: 100%;
+  max-width: 550px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: var(--transition);
+}
+.about_section-image:nth-child(2) {
+  /* transform: skew(-15deg); */
+}
+.about_section-image:hover {
+  transform: scale(1.02);
+  border-radius: 8rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about_section-content {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_section-content h1 {
+  margin-bottom: 2rem;
+}
+
+.about_section-content p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.about-section-head {
+  margin-bottom: 3rem;
+}
+
+.about_story-container,
+.about_mission-container {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+}
+
+.about_vision-container {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  gap: 10%;
+}
+
+/* MEDIA QUIRIES (medium screens) */
+@media screen and (max-width: 1200px) {
+  .about_story-container, .about_mission-container {
+    grid-template-columns: 43% 53%;
+    gap: 4%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about_story {
+    padding: 5rem 0 2rem;
+}
+  .about_section-image {
+    width: 60%;
+    margin: auto;
+  }
+
+  .about_section-content h1 {
+    margin-bottom: 1.2rem;
+  }
+  .about_story-container,
+  .about_vision-container,
+  .about_mission-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about_vision .about_section-image {
+    grid-row: 1;
+  }
+}
+
+/* MEDIA QUIRIES (small screens) */
+@media screen and (max-width: 600px) {
+  .about_section-image {
+    width: 80%;
+    margin-inline: auto;
+  }
+
+  .about_story-container,
+  .about_vision-container,
+  .about_mission-container {
+    gap: 2rem;
+  }
+
+  .about_section-content p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about_section-content p {
+    font-size: 0.9rem;
+  }
+  .about_section-image {
+    height: 400px;
+  }
+}
+
+
