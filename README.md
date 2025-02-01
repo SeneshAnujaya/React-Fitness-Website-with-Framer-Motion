@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+🏋️‍♂️ Fitness Website – React, CSS & Framer Motion
+A modern and interactive fitness website built using React.js, CSS, and Framer Motion for smooth animations. This project delivers a seamless user experience with engaging UI elements, motion effects, and responsive design.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+✅ Framer Motion Animations – Smooth page transitions, section reveals, and interactive elements
+✅ Responsive Design – Fully optimized for desktop, tablet, and mobile
+✅ Styled with CSS – Clean, modern, and visually appealing layout
+✅ Testimonials & FAQs – Dynamic client reviews and common questions section
+✅ Interactive UI – Engaging hero sections, call-to-actions, and fitness program showcases
+✅ Fast & Lightweight – Optimized for performance and usability
 
-## Available Scripts
+🚀 Tech Stack
+React.js – Component-based architecture for scalability
+CSS – Custom styling for a polished look
+Framer Motion – High-performance animations & transitions
 
-In the project directory, you can run:
+📸 Preview
+![Fitness Website Screenshot](./src/images/Screenshot-fitness.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📂 Installation & Setup
+git clone https://github.com/SeneshAnujaya/React-Fitness-Website-with-Framer-Motion.git 
+cd fitness-website  
+npm install  
+npm start 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📌 License
+This project is open-source and available under the MIT License.
